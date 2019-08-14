@@ -1,0 +1,266 @@
+html {
+  background-color: white;
+}
+
+.container {
+  height: 980px;
+  width: 980px;
+  margin: 0 auto;
+  background: linear-gradient(to bottom, #26161b 0%, #6f5963 103%);
+}
+
+.header {
+  background-color: lightgray;
+  height: 60px;
+  width: 980px;
+  display: inline-block;
+}
+
+.mid-top {
+  margin-top: 25px;
+}
+
+.header-name {
+  margin: 10px;
+  margin-left: 20px;
+  display: inline-block;
+}
+
+.header-quote {
+  display: inline-block;
+  margin-left: 500px;
+}
+
+.bio {
+  background-color: #faf8fa;
+  height: 293px;
+  width: 400px;
+  margin-right: 30px;
+  display: inline-block;
+  vertical-align: top;
+  margin-left: 103px;
+}
+
+.developer {
+  height: 285px;
+  width: 400px;
+  border: 5px solid gray;
+  margin-left: 30px;
+}
+
+.about {
+  background-color: lightgrey;
+  margin-top: auto;
+  width: 400px;
+  display: inline-block;
+}
+
+.jayne {
+  display: inline-block;
+}
+
+.paragraph {
+  padding: 5px;
+  margin-left: 5px;
+}
+
+.mid-bottom {
+  text-align: center;
+  margin-top: 25px;
+}
+
+.project1 {
+  height: 382px;
+  width: 280px;
+  background: linear-gradient(to right, #dccfdc 0%, #fcfbfc 100%);
+  display: inline-block;
+  vertical-align: top;
+  padding: 2px;
+  vertical-align: bottom;
+}
+
+.project2 {
+  height: 385.5px;
+  width: 280px;
+  background: linear-gradient(to right, #dccfdc 0%, #fcfbfc 100%);
+  display: inline-block;
+  vertical-align: top;
+  margin-left: 35px;
+  vertical-align: bottom;
+}
+
+.project3 {
+  margin: 0 auto;
+  display: inline-block;
+  height: 385px;
+  width: 280px;
+  background: linear-gradient(to right, #dccfdc 0%, #fcfbfc 100%);
+  display: inline-block;
+  vertical-align: top;
+  margin-left: 30px;
+  vertical-align: bottom;
+}
+
+.bottom-P1 {
+  background-image: linear-gradient(#ababb0, #898693, #b0b0b4);
+  height: 19px;
+  width: 274px;
+  margin-top: -2px;
+  margin-left: -2px;
+  text-align: left;
+  padding: 5px;
+  color: white;
+}
+
+.bottom-P2 {
+  background-image: linear-gradient(#ababb0, #898693, #b0b0b4);
+  height: 23px;
+  width: 273.7px;
+  margin-top: 0;
+  margin-left: 0;
+  text-align: left;
+  padding: 3px;
+  color: white;
+}
+
+.bottom-P3 {
+  background-image: linear-gradient(#ababb0, #898693, #b0b0b4);
+  height: 19.5px;
+  width: 270px;
+  margin-top: 0;
+  margin-left: 0px;
+  text-align: left;
+  padding: 5px;
+  color: white;
+}
+
+.project-content1 {
+  text-align: left;
+  margin-left: -1px;
+  padding: 5px;
+}
+
+.project-content2 {
+  text-align: left;
+  margin-left: -1px;
+  padding: 5px;
+}
+
+.project-content3 {
+  text-align: left;
+  margin-left: -1px;
+  padding: 5px;
+}
+
+.tech1 {
+  height: 125px;
+  width: 273.2px;
+  text-align: left;
+  margin-top: 50px;
+  margin-left: -1.6px;
+  padding: 5px;
+  background-image: linear-gradient(#acabb0, #91909b, #a9a9af);
+  display: inline-block;
+}
+
+.tech2 {
+  height: 125px;
+  width: 270px;
+  text-align: left;
+  margin-top: 30px;
+  margin-bottom: -48px;
+  margin-left: 0px;
+  padding: 5px;
+  background-image: linear-gradient(#acabb0, #91909b, #a9a9af);
+  display: inline-block;
+}
+
+.tech3 {
+  height: 125px;
+  width: 269.1px;
+  text-align: left;
+  margin-top: -20px;
+  margin-left: -1px;
+  padding: 5px;
+  background-image: linear-gradient(#acabb0, #91909b, #a9a9af);
+  display: inline-block;
+}
+
+.bottom {
+  background-color: lightgray;
+  text-align: center;
+  margin-top: 150px;
+  padding: 8px;
+}
+
+.email-social {
+  margin-top: 8px;
+}
+
+.lamode {
+  height: 150px;
+  width: 282.4px;
+  text-align: center;
+  margin-left: -1.3px;
+  margin-right: -1.3px;
+  margin-top: -18px;
+  display: inline-block;
+}
+
+.family {
+  height: 150px;
+  width: 280px;
+  text-align: center;
+  display: inline-block;
+  margin-top: -18px;
+}
+
+.five {
+  height: 150px;
+  width: 280px;
+  text-align: center;
+  display: inline-block;
+  margin-top: -18px;
+}
+
+.logo1 img {
+  margin-top: 5px;
+  height: 30px;
+}
+
+.logo2 {
+  /* display: inline-block; */
+  margin-top: -60px;
+}
+
+.logo2 img {
+  margin-top: 5px;
+  height: 30px;
+}
+
+.logo3 {
+  margin-top: -127px;
+}
+
+.logo3 img {
+  margin-top: 5px;
+  height: 30px;
+}
+
+.small-lamode {
+  margin-top: -50px;
+  color: white;
+  background-color: green;
+}
+
+.small-fc {
+  margin-top: -1.5px;
+  color: white;
+  background-color: green;
+}
+
+.small-fe {
+  margin-top: 0px;
+  color: white;
+  background-color: green;
+}

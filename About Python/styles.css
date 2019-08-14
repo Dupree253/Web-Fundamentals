@@ -1,0 +1,320 @@
+/* CSS Reset */
+* {
+  margin: 0;
+  padding: 0;
+}
+/* ************* */
+
+html {
+  background-color: black;
+}
+
+/* Main container */
+.container {
+  height: auto;
+  width: 970px;
+  background-color: #245076;
+  margin: 0 auto;
+}
+/* **************************** */
+
+/* 3 main divs */
+.top {
+  height: 485px;
+  width: 970px;
+  background-color: #245076;
+}
+
+.top-content {
+  height: 260px;
+  width: 571px;
+  margin-top: 15px;
+  margin-left: 283px;
+  font-size: 18px;
+}
+
+.top-content p {
+  text-align: center;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+}
+
+.top-content h3 {
+  text-align: center;
+  margin-top: 10px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 22px;
+  font-style: italic;
+  color: #edc837;
+  font-weight: lighter;
+}
+
+.top-content h4 {
+  color: #cad3dd;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-top: 14px;
+  font-size: 22px;
+  font-weight: lighter;
+}
+
+.middle {
+  height: 230px;
+  width: 970px;
+  background-color: white;
+}
+
+.middle-left {
+  width: 450px;
+  height: 230px;
+  margin-top: 18px;
+  margin-left: 11px;
+  display: inline-block;
+  vertical-align: top;
+}
+
+.middle-right {
+  width: 430px;
+  height: 230px;
+  margin-top: 18px;
+  margin-left: 65px;
+  display: inline-block;
+  vertical-align: top;
+}
+
+.middle-left h4,
+p,
+ul {
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+}
+
+.middle-left p {
+  margin-top: 10px;
+}
+
+.middle-left ul {
+  list-style-type: square;
+  margin-top: 5px;
+  color: #7aabd7;
+  list-style-type: square;
+}
+
+.middle-left li {
+  position: relative;
+  left: 70px;
+}
+
+.middle-left li span {
+  position: relative;
+  left: -62px;
+}
+
+.middle-right p {
+  margin-top: 10px;
+}
+
+.python-package {
+  color: #7aabd7;
+  font-size: 12px;
+}
+
+.middle-right ul {
+  list-style-type: square;
+  margin-top: 5px;
+  color: #7aabd7;
+  list-style-type: square;
+}
+
+.middle-right li {
+  position: relative;
+  left: 63px;
+}
+
+.middle-right li span {
+  position: relative;
+  left: -62px;
+}
+
+.middle-right h4,
+p,
+ul {
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+}
+
+.bottom {
+  height: 105px;
+  width: 970px;
+  margin-top: 20px;
+  background-image: linear-gradient(#25527a, #3171a7);
+}
+
+.bottom-three {
+  height: 22px;
+  width: 970px;
+  text-align: center;
+}
+
+.bottom h3 {
+  font-family: Arial, Helvetica, sans-serif;
+  display: inline-block;
+  text-align: center;
+  color: #cad3dd;
+  margin-top: 46px;
+  margin-left: 62px;
+  font-weight: lighter;
+}
+
+.bottom p {
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  margin-top: 64px;
+  color: #cad3dd;
+  font-weight: lighter;
+  font-size: 11px;
+}
+
+/* ****************************** */
+
+/* Header div w/ python logo and search bar */
+.header {
+  height: 100px;
+  width: 970px;
+}
+
+.python {
+  height: 100px;
+  width: 200px;
+  display: inline-block;
+  vertical-align: top;
+}
+
+.python img {
+  height: 100px;
+}
+
+.search {
+  height: 100px;
+  width: 200px;
+  font-family: Arial, Helvetica, sans-serif;
+  display: inline-block;
+  margin-left: 566px;
+  vertical-align: top;
+}
+
+.search p {
+  font-size: 15px;
+  text-align: center;
+  margin: 10px;
+}
+
+.search input {
+  height: 26px;
+  width: 139px;
+  margin: 10px;
+  margin-left: 11px;
+  text-align: center;
+}
+
+.search button {
+  background-color: #245076;
+  border-radius: 4px;
+  height: 25px;
+  width: 25px;
+}
+
+.search-background {
+  background-color: black;
+  width: 170px;
+  height: 40px;
+}
+
+button {
+  border: 2px solid silver;
+  border-radius: 5px 5px;
+  height: 5px;
+  width: 5px;
+  color: white;
+}
+/* **************************************** */
+
+/* .nav-bar {
+  height: 80px;
+  width: 970px;
+} */
+
+/* Horizontal nav bar styles */
+.nav-list {
+  text-align: center;
+  word-spacing: 30px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 23px;
+  color: black;
+  border: 5px solid #447dad;
+  background-color: #447dad;
+  border-radius: 5px;
+  width: 780px;
+  margin-left: 90px;
+  box-shadow: 2px 2px;
+  height: 35px;
+}
+
+.nav-list ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  margin-top: 10px;
+}
+
+.nav-list li {
+  display: inline;
+}
+
+a:link {
+  text-decoration: none;
+}
+
+a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+a:active {
+  text-decoration: underline;
+}
+/* ******************************** */
+
+/* Left side list menu */
+
+.side-menu {
+  height: 195px;
+  width: 130px;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-top: -262px;
+  margin-left: 102px;
+}
+
+.side-menu ul {
+  height: 195px;
+  width: 130px;
+  color: white;
+  font-size: 14px;
+  text-align: center;
+  text-decoration: underline;
+  text-decoration-skip: auto;
+  list-style-type: none;
+}
+
+.side-menu ul li:before {
+  content: "\00BB \0020";
+}
+
+.side-menu li {
+  margin-top: 22px;
+  content: "\00BB \0020";
+}
